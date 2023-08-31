@@ -1,0 +1,62 @@
+body{
+  background: url("/Images/Logo.jpeg");
+  font-family: Arial,sans-serif;
+}
+
+.regform{
+  width: 500px;
+  padding: 10px 20px 30px;
+  background-color: rgba(57, 10, 9, 0.82);
+  margin:500px auto;
+  color: white;
+  font-size: 30px;
+  border-radius:50px;
+  box-shadow:16px 20px 15px rgba(235, 160, 153, 1)
+}
+
+h3{
+  text-align: center ;
+  color: rgba(205, 144, 118, 1);
+  text-decoration: underline;
+}
+
+.regform .textlabel{
+  display: block ;
+}
+
+.input input{
+  width: 100%;
+  font-size: 1.2em;
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-shadow: 2px;
+  border-radius: 8px 16px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  margin: 10px 0px 15px;
+}
+
+input:focus{
+  background-color: rgba(235, 199, 132, 1)
+}
+
+.btn{
+  text-align: center ;
+}
+
+button {
+  background-color: rgba(255, 168, 5, 1);
+  font-size:30px;
+  border-radius: 10px 15px;
+  color: white;
+  border-color: rgba(0, 0, 0, 1);
+  margin-top: 20px;
+  padding: 15px 25px;
+  box-shadow: 5px 5px 10px lightyellow;
+}
+
+.radio input{
+  accent-color:rgba(255, 168, 5, 1);
+  transform: scale(2);
+  -ms-transform: scale(2);
+  -webkit-transform: scale(2);
+}

@@ -1,0 +1,135 @@
+:root{
+  --yellow:#FFC54D;
+  --green:#53BF9D;
+  --red:#CD2728;
+  --white:#FFFFFF;
+}
+
+body,h2{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.landing{
+  background-image: url(/Images/spicy.jpg);
+  background-size:Cover;
+  background-position: center;
+  height: 100vh;
+  color:var(--white);
+}
+
+header a{
+  text-decoration: none;
+  color:var(--yellow);
+  min-width: 120px;
+}
+
+header{
+  display: flex;
+  padding: 1em;
+}
+
+#logo{
+  flex:3;
+  font-size: 1.25em;
+  min-width: 100px;
+}
+
+nav{
+  flex:2;
+  display: flex;
+}
+
+nav a{
+  flex: 1;
+}
+
+nav a:hover{
+  color: var(--green);
+}
+
+.maintext{
+  display: flex;
+  flex-direction: column ;
+  height:100vh;
+  justify-content: center;
+  padding :2em;
+  place-items: center ;
+  background-color: #D0393A75
+}
+
+.tagline1{
+  color:var(--white);
+  font-size: 2.5em;
+  font-weight: bolder;
+}
+
+.tagline2{
+  color:var(--yellow);
+}
+
+.maintext div{
+  margin-top:15px;
+}
+
+.maintext button{
+  width:20vw;
+  margin-top: 2em;
+  border-radius: 10px;
+  padding: .7em;
+  background-color: var(--green);
+  color:var(--white);
+  border: none;
+}
+
+.menu{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: linear-gradient(to right,rgba(171, 63, 63, 1),rgba(0, 0, 0, 1));
+  color:var(--white);
+}
+
+.location{
+  background: linear-gradient(to right,rgba(171, 63, 63, 1),rgba(0, 0, 0, 1));
+  color: var(--white);
+  display :flex;
+}
+
+.location h2{
+  color: var(--green);
+  margin-bottom: .8em;
+}
+
+.location div{
+  flex: 1;
+  padding: 2em;
+}
+
+#menuheading,#locheading{
+  background: linear-gradient(to right,rgba(171, 63, 63, 1),rgba(0, 0, 0, 1));
+  Color :var(--yellow);
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.menu th{
+  color:var(--green);
+  font-size:2em;
+}
+
+table{
+  width: 100%;
+  padding: 20px;
+}
+
+#copyright{
+  color :var(--yellow);
+  font-size: 1.5em;
+  text-align: center;
+  background: linear-gradient(to right, #CEB7B7,#0B0404);
+  padding :10px;
+}
+
+header i,nav a i{
+  margin-right: .5em;
+}
