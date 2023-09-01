@@ -1,0 +1,85 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+nav{
+  background-color: black;
+  color:white;
+  padding: 20px;
+}
+
+li,ul,h3{
+  display: inline;
+}
+
+li{
+  color:gray;
+  cursor:pointer;
+}
+
+li:hover {
+  color :white;
+}
+
+h3{
+  margin-right: 50%;
+}
+
+input{
+  width:60%;
+  padding:15px;
+  border-radius: 10px;
+}
+
+#search{
+  text-align: center;
+  padding:50px;
+}
+
+.perfume{
+  border: 2px solid black;
+  display: inline-block;
+  width:220px;
+}
+
+.perfume:hover{
+background-color:black;
+color: white;
+}
+
+#container{
+  text-align: center ;
+}
+
+.about{
+  text-align: center;
+  margin: 30px;
+}
+
+.para{
+  text-align: center;
+}
+
+.contact{
+  text-align: center;
+}
+
+.prip{
+  text-align: center;
+  margin:20px;
+  margin-top: 30px;
+  color: gray;
+  font-size: 10px;
+}
+
+.prep:hover{
+  color: white;
+}
+
+.total{
+  background-color: black;
+  color:white;
+  padding :20px;
+  margin:30px;
+}
